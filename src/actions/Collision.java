@@ -1,7 +1,6 @@
 package actions;
 
 import game.Snake;
-import sun.management.snmp.util.SnmpNamedListTableCache;
 
 /**
  * short description of Collision
@@ -23,7 +22,6 @@ public class Collision {
     }
 
     public static boolean colliedBorder(){
-
         return (Snake.head.getX() < 0 || Snake.head.getX() >15 || Snake.head.getY() < 0 || Snake.head.getY() >15);
     }
 
